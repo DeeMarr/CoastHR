@@ -1,0 +1,47 @@
+---
+layout: layouts/base.njk
+title: Contact
+description: Ready for a chat about your unique HR or performance needs? Get in touch with Deanne at CoastHR.
+---
+<section class="section">
+  <div class="wrap grid grid--2" style="align-items:center;">
+    <div>
+      <h1>Say Hi!</h1>
+      <h2>Your HR Solution Awaits.</h2>
+      <p>Hi, I'm Deanne from Coast HR! I offer practical, hands-on consulting and coaching that genuinely takes the stress off your shoulders. I love helping businesses like yours navigate tricky compliance and sensitive employee issues, so your team can thrive.</p>
+      <p>Do you want less worry, fewer risks, and more time to focus on what you do best?</p>
+      <h3>Ready for a chat about your unique needs?</h3>
+
+      <!--
+        TODO for Dee: sign up for a free Formspree account at https://formspree.io,
+        create a form, and replace YOUR_FORM_ID below with the ID it gives you.
+        Until then this form won't actually send anywhere.
+      -->
+      <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <div>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+          <label for="phone">Phone (optional)</label>
+          <input type="tel" id="phone" name="phone">
+        </div>
+        <div>
+          <label for="message">How can I help?</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <button class="btn" type="submit">Send message</button>
+      </form>
+
+      <p style="margin-top:2em;">Prefer to call or email directly?</p>
+      <p><a href="tel:{{ site.phone }}">{{ site.phone }}</a> &nbsp;·&nbsp; <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+    </div>
+    <div>
+      <img src="/img/dee-headshot.png" alt="Deanne Marr" style="border-radius:16px;">
+    </div>
+  </div>
+</section>

@@ -1,0 +1,12 @@
+---
+layout: layouts/base.njk
+---
+<article class="post">
+  <div class="wrap post__content">
+    <p class="post__date">{{ date | readableDate }}</p>
+    <h1>{{ title }}</h1>
+    {{ content | safe }}
+    <p class="post__cta"><a class="btn" href="/contact/">Get in touch about this</a></p>
+    <p><a href="/blog/">&larr; Back to all posts</a></p>
+  </div>
+</article>
