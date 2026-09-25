@@ -62,5 +62,4 @@ This opens a local preview in your browser that updates as you edit.
 - **Contact form**: the form on the Contact page needs a free Formspree account — sign up at formspree.io, create a form, and swap the placeholder ID in `src/contact.njk` for your real one. Without this, the form won't actually send anywhere yet.
 - **Domain**: coasthr.com.au needs to be pointed at GitHub Pages once the GitHub repo exists.
 - **Blog post images**: four of the five blog posts don't have dedicated photos yet — let me know when you've got them.
-- **Apprentice Registration page**: currently a placeholder — needs real copy from you (see the note on that page).
 - **Privacy Policy**: rewritten to match how this new site actually works, but worth a proper read-through before it goes live.
