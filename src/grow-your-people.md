@@ -6,7 +6,7 @@ description: CoastHR helps you hire the right people for the right roles and ali
 
 ### We understand. Hiring is one of the highest-stakes calls you make as a business owner.
 
-**Deanne** from Coast HR helps you find, hire, and align the right people to where your business is actually headed.
+**Deanne** from Coast HR helps you hire, onboard and align the right people to where your business is actually headed.
 
 She'll work with you to define the role properly before you advertise it, run a hiring process that filters for fit as well as skill, and set new team members up to hit the ground running instead of learning by trial and error.
 
